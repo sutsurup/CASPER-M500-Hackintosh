@@ -35,7 +35,7 @@ Yardımcı olabilecek kaynaklar:
 | CPU              | Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz (max. 4.10GHz) Coffee Lake-S              |
 | RAM           | Kingston 4GB+4GB (9905713-019.A00G) 2666 MHz DDR4 SDRAM   |
 | Dahili Grafik Kartı | Intel(R) UHD Graphics 630 (1 GB)                     |
-| Ses       | Realtek ALC662                        |
+| Ses       | Realtek ALC662 (Layout: 13)                        |
 | BIOS Versiyonu      | 5.12                   |
 
 ![](Screenshots/info.png)
@@ -44,6 +44,15 @@ Yardımcı olabilecek kaynaklar:
 **macOS Big Sur 11.1** sürümünü desteklemektedir.
 Releases bölümünde paylaştığım EFI klasörünü, macOS kurulum belleğinizdeki EFI için ayrılan bölüme kopyalayınız.
 macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde çalıştırmayı deneyebilirsiniz
+
+### Çalışıyor
+
+- [x] Uyku
+- [x] Ethernet (Yama yapıldı)
+- [x] Ses (Layout: 1)
+
+### Çalışmıyor (henüz)
+- [ ] Ekran parlaklığı
 
 ![](Screenshots/update.png)
 

@@ -25,11 +25,11 @@ Yardımcı olabilecek kaynaklar:
     Destek:       BIOS (5.12)
     Yapı:         OpenCore
 
-![Alt text](Images/Hackintosh.png)
+![](Images/Hackintosh.png)
 
 ## Donanım
 
-| **MONSTER** | Detay                                                  |
+| **CASPER** | Detay                                                  |
 | ------------------- | ------------------------------------------- |
 | Model Ismi      | Casper M500      |
 | Anakart           | 	Intel Kaby Point H310C     |
@@ -39,14 +39,14 @@ Yardımcı olabilecek kaynaklar:
 | Ses       | Realtek ALC662                        |
 | BIOS Versiyonu      | 5.12                   |
 
-<img src="Images/info.png" alt="Info">
+![](Screenshots/info.png)
 
 ## Uyumluluk
 **macOS Big Sur 11.0** sürümünü desteklemektedir.
 Releases bölümünde paylaştığım EFI klasörünü, macOS kurulum belleğinizdeki EFI için ayrılan bölüme kopyalayınız.
 macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde çalıştırmayı deneyebilirsiniz
 
-<img src="Images/update.png" alt="Info">
+![](Screenshots/update.png)
 
 # Kurulum sonrası yararlanabileğiniz rehber/araçlar (Isteğe bağlı)
 * önerilir: iCloud'a giriş yapacaksanız veya iMessage, FaceTime kullanmak istiyorsanız, bu rehberi harfiyen uygulayın: [OpenCore ile iMessage ve Apple Servislerini Aktif Etmek](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297/) (Bu rehberde Clover Configurator gösterilmiş, siz OpenCore Configurator kullanacaksınız, Clover Configurator üzerinden takip edin, verileri OpenCore Configurator aracılığıyla config.plist dosyanıza girin)
@@ -59,9 +59,6 @@ Website: https://sutsurup.com //
 Mail: [contact@sutsurup.com](contact@sutsurup.com)
 
 ## Ekran Görüntüleri
-<details>
-<summary>BigSur</summary>
-
 ![](Screenshots/BigSur.png)
 
 </details>

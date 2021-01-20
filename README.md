@@ -1,17 +1,16 @@
 # Casper M500  | Intel i5 (9. Nesil)
 
-[![macOS](https://img.shields.io/badge/macOS-11.0-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macOS-11.1-orange)](https://www.apple.com/tr/macos/big-sur/)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.5-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/CASPER-M500-Hackintosh/releases)
 
 <img align="right" src="Images/casper.png" alt="Casper">
 
-Türkçe | [English](https://github.com/sutsurup/MONSTER-Hackintosh/blob/master/README_EN.md)
+Türkçe | [English](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README_EN.md)
 
-**macOS Versiyonu: 11.0**
+**macOS Versiyonu: 11.1**
 
 **OpenCore Versiyonu: 0.6.5**
-
 
 Yardımcı olabilecek kaynaklar: 
 
@@ -42,7 +41,7 @@ Yardımcı olabilecek kaynaklar:
 ![](Screenshots/info.png)
 
 ## Uyumluluk
-**macOS Big Sur 11.0** sürümünü desteklemektedir.
+**macOS Big Sur 11.1** sürümünü desteklemektedir.
 Releases bölümünde paylaştığım EFI klasörünü, macOS kurulum belleğinizdeki EFI için ayrılan bölüme kopyalayınız.
 macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde çalıştırmayı deneyebilirsiniz
 

@@ -49,7 +49,7 @@ macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde �
 
 - [x] Uyku
 - [x] Ethernet (Yama yapıldı)
-- [x] Ses (Layout: 1)
+- [x] Ses (Layout: 13)
 
 ### Çalışmıyor (henüz)
 - [ ] Ekran parlaklığı

@@ -54,9 +54,17 @@ macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde �
 * Hackintool ([Forum thread](https://www.insanelymac.com/forum/topic/335018-hackintool-v286/) | [Direkt indirme linki](http://headsoft.com.au/download/mac/Hackintool.zip)) (Detaylı sistem bilgileri öğrenme ve düzenlemeleri için)
 * Hackintool ([Indir](https://github.com/headkaze/Hackintool/releases/tag/3.5.3)
 
+## Dual Boot
+Bu cihazı sadece iş amaçlı kullandığımdan dolayı Dual Boot yani hem macOS, hem de Windows olması gerekiyordu. Maalesef macOS Catalina ile birlikte kullanılan dosya sistemi (Apple HFS) tamamen değişti ve APFS formatına geçti (Windows'taki FAT32 ve NTFS gibi düşünebiliriz). Bu sebeple artık Windows kurduktan sonra macOS kurmak mümkün değil. En azından Catalina ve Big Sur için. Windows'unuz kurulu ve macOS kullanmak istiyorsanız, Sierra - High Sierra ve Mojave gibi alt sürümleri tercih edebilirsiniz.
+
+Peki Big Sur'da nasıl Dual Boot yapacağız? Pek sağlıklı bir yöntem olmasa da bir zararını görmediğim bir yöntemle. Bu yöntemi kullanabilmek için macOS Big Sur'u öncelikli olarak depolama birimine (HDD - SSD) yüklemeniz gerekiyor. macOS'i yüklerken kurulum ekranında Windows için kullanacağınız alanı FAT formatını seçerek ayırın. Ben bu sistemde 100 GB ayırdım, ekran görüntüsünün alt kısmında görünüyor. Sonrasında macOS'i diğer APFS olarak formatladığınız diske normal bir şekilde kurun.
+
+macOS kurulumu bittikten sonra, Windows kurulumunu başlatın ve disk bölümüne kadar gelin. Ben 100GB olarak ayırmıştım, dolasıyla bundan sonraki yazımda "100GB Windows diski" olarak telaffuz edeceğim. 100GB ayırdığımız FAT diski, Windows format ekranı (ÖZEL - disk bölümünde) gözüküyor fakat FAT formatlı disklere Windows 10 kurulamıyor! Bu sebeple 100GB ayırdığımız diskimizi "Sil" diyoruz ve siliyoruz. Şimdi boş alan 100GB olarak gözüküyor ve buraya kurulumu yapabiliriz. Kurulum sırasında Windows, kendine özgü boot dosyalarını depolama biriminize yükleyecektir. Bu kadar!
+
+Not: Bu işlemi yaptıktan sonra macOS'i 11.0.1 sürümünden 11.1 sürümüne güncelledim, başarılı oldu.
+
 ## İletişime geçin
-Website: https://sutsurup.com //
-Mail: [contact@sutsurup.com](contact@sutsurup.com)
+Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) bölümüne destek talebi açın! Diğer soru ve talepleriniz için; Website: https://sutsurup.com // Mail: [contact@sutsurup.com](contact@sutsurup.com)
 
 ## Ekran Görüntüleri
 ![](Screenshots/BigSur.png)

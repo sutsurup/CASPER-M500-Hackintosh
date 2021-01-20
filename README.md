@@ -42,7 +42,7 @@ Yardımcı olabilecek kaynaklar:
 
 ## Uyumluluk
 **macOS Big Sur 11.1** sürümünü desteklemektedir.
-Releases bölümünde paylaştığım EFI klasörünü, macOS kurulum belleğinizdeki EFI için ayrılan bölüme kopyalayınız.
+Releases bölümünde EFI klasörü için zip dosyası paylaştım. macOS kurulum belleğinizdeki EFI için ayrılan disk bölümünde, EFI adında bir klasör oluşturun ve zip içerisindeki BOOT ve OC klasörlerini EFI klasörü içerisine kopyalayınız.
 macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde çalıştırmayı deneyebilirsiniz
 
 ### Çalışıyor

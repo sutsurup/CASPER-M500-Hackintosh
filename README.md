@@ -79,4 +79,9 @@ Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://gi
 
 </details>
 
+### Destek olmak için
+Bu projeyi faydalı bulduysanız, destek olmak için bağış yapabilirsiniz:
+**₿itcoin: 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN**
+<a href='http://sutsurup.com/donate'><img alt='Donate' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
+
 Kolay gelsin!

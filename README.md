@@ -72,7 +72,7 @@ macOS kurulumu bittikten sonra, Windows kurulumunu başlatın ve disk bölümün
 Not: Bu işlemi yaptıktan sonra macOS'i 11.0.1 sürümünden 11.1 sürümüne güncelledim, başarılı oldu.
 
 ## İletişime geçin
-Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) bölümüne destek talebi açın! Diğer soru ve talepleriniz için; Website: https://sutsurup.com // Mail: [contact@sutsurup.com](contact@sutsurup.com)
+Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) bölümüne destek talebi açın! Diğer soru ve talepleriniz için; Website: https://sutsurup.com // Mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
 
 ## Ekran Görüntüleri
 ![](Screenshots/BigSur.png)
@@ -83,11 +83,10 @@ Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://gi
 Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak için bağış yapabilirsiniz:
 ```
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
-Papara ➜ 1801475764
 ``` 
 <a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
-QR kodu tarayarak alternatif seçeneklere ulaşabilirsiniz
+QR koda tıklayarak alternatif seçeneklere ulaşabilirsiniz
 ``` 
 
 Kolay gelsin!

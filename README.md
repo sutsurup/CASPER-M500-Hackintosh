@@ -6,7 +6,7 @@
 
 <img align="right" src="Images/casper.png" alt="Casper">
 
-Türkçe | [English](https://github.com/sutsurup/ASUS-K555UB-Hackintosh/blob/master/README_EN.md)
+Türkçe | [English](README_EN.md)
 
 **macOS Versiyonu: 11.1**
 
@@ -63,16 +63,21 @@ macOS High Sierra 10.13.6, Mojave 10.14.6 veya Catalina 10.15.7 sürümlerinde �
 * Hackintool ([Indir](https://github.com/headkaze/Hackintool/releases/tag/3.5.3)
 
 ## Dual Boot
-Bu cihazı sadece iş amaçlı kullandığımdan dolayı Dual Boot yani hem macOS, hem de Windows olması gerekiyordu. Maalesef macOS Catalina ile birlikte kullanılan dosya sistemi (Apple HFS) tamamen değişti ve APFS formatına geçti (Windows'taki FAT32 ve NTFS gibi düşünebiliriz). Bu sebeple artık Windows kurduktan sonra macOS kurmak mümkün değil. En azından Catalina ve Big Sur için. Windows'unuz kurulu ve macOS kullanmak istiyorsanız, Sierra - High Sierra ve Mojave gibi alt sürümleri tercih edebilirsiniz.
+Bu cihazı sadece iş amaçlı kullandığımdan dolayı Dual Boot (hem macOS hem Windows) yapmam gerekiyordu. Catalina ile birlikte Apple'ın dosya sistemi HFS'den APFS'ye geçti (Windows'taki FAT32/NTFS benzeri). Bu nedenle Catalina ve Big Sur için, Windows kurduktan sonra macOS kurmak genellikle mümkün olmuyor. Eğer zaten Windows kuruluysa ve macOS kullanmak istiyorsanız, daha eski sürümler (Sierra / High Sierra / Mojave) tercih edilebilir.
 
-Peki Big Sur'da nasıl Dual Boot yapacağız? Pek sağlıklı bir yöntem olmasa da bir zararını görmediğim bir yöntemle. Bu yöntemi kullanabilmek için macOS Big Sur'u öncelikli olarak depolama birimine (HDD - SSD) yüklemeniz gerekiyor. macOS'i yüklerken kurulum ekranında Windows için kullanacağınız alanı FAT formatını seçerek ayırın. Ben bu sistemde 100 GB ayırdım, ekran görüntüsünün alt kısmında görünüyor. Sonrasında macOS'i diğer APFS olarak formatladığınız diske normal bir şekilde kurun.
+Big Sur için kullandığım yöntem şu şekildedir (tamamen zararsız olduğunu gözlemledim ama ideal bir yöntem değildir):
 
-macOS kurulumu bittikten sonra, Windows kurulumunu başlatın ve disk bölümüne kadar gelin. Ben 100GB olarak ayırmıştım, dolasıyla bundan sonraki yazımda "100GB Windows diski" olarak telaffuz edeceğim. 100GB ayırdığımız FAT diski, Windows format ekranı (ÖZEL - disk bölümünde) gözüküyor fakat FAT formatlı disklere Windows 10 kurulamıyor! Bu sebeple 100GB ayırdığımız diskimizi "Sil" diyoruz ve siliyoruz. Şimdi boş alan 100GB olarak gözüküyor ve buraya kurulumu yapabiliriz. Kurulum sırasında Windows, kendine özgü boot dosyalarını depolama biriminize yükleyecektir. Bu kadar!
+1. macOS Big Sur'u depolama birimine (HDD/SSD) öncelikli olarak yükleyin.
+2. Kurulum sırasında, Windows için ayıracağınız alanı FAT formatında oluşturun. (Ben örnek olarak 100 GB ayırdım — ekran görüntüsünde bu görünür.)
+3. Geri kalan diski APFS olarak formatlayıp macOS'i normal şekilde kurun.
+4. macOS kurulumu tamamlandıktan sonra Windows kurulumunu başlatın ve disk bölümleme ekranına gelin. Daha önce ayırdığınız 100 GB'lık FAT bölüm görünür olacaktır.
+5. Windows 10 FAT formatlı bir bölüme kurulamaz; bu nedenle o 100 GB'lık bölümü "Sil" yaparak boş alan haline getirin.
+6. Boş alan (100 GB) gözükecektir; Windows'u bu boş alana kurun. Kurulum sırasında Windows, kendi boot dosyalarını depolama birimine yazacaktır.
 
-Not: Bu işlemi yaptıktan sonra macOS'i 11.0.1 sürümünden 11.1 sürümüne güncelledim, başarılı oldu.
+Not: Bu işlemi tamamladıktan sonra macOS'u 11.0.1'den 11.1'e başarılı şekilde güncelledim.
 
 ## İletişime geçin
-Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) bölümüne destek talebi açın! Diğer soru ve talepleriniz için; Website: https://sutsurup.com // Mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
+Herhangi bir adımda sorun yaşıyorsanız, öncelikli olarak [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) bölümüne destek talebi açın! Diğer soru ve talepleriniz için; Website: https://sutsurup.tr // Mail: [veysel@sutsurup.tr](mailto:veysel@sutsurup.tr)
 
 ## Ekran Görüntüleri
 ![](Screenshots/BigSur.png)

@@ -63,7 +63,7 @@ You can also try running macOS High Sierra 10.13.6, Mojave 10.14.6 or Catalina 1
 * Hackintool ([Download](https://github.com/headkaze/Hackintool/releases/tag/3.5.3))
 
 ## Dual Boot
-I used this device for work, so I needed a Dual Boot setup (macOS + Windows). With macOS Catalina and later, Apple switched the filesystem to APFS (roughly analogous to FAT32/NTFS on Windows). For Catalina and Big Sur, installing macOS after Windows is generally not possible. If you already have Windows installed and want to use macOS, consider older versions such as Sierra, High Sierra, or Mojave.
+I used this device for work, so I needed a dual-boot setup (macOS + Windows). With macOS Catalina and later, Apple switched the filesystem to APFS (roughly analogous to FAT32/NTFS on Windows). For Catalina and Big Sur, installing macOS after Windows is generally not possible. If you already have Windows installed and want to use macOS, consider older versions such as Sierra, High Sierra, or Mojave.
 
 The method that worked for me (not ideal but functional) is as follows:
 
@@ -74,10 +74,10 @@ The method that worked for me (not ideal but functional) is as follows:
 5. Windows 10 cannot be installed on FAT partitions, so delete that 100 GB FAT partition to leave 100 GB of unallocated space.
 6. Install Windows into the unallocated space. During installation, Windows will create and write its own boot files to the drive.
 
-Note: After doing this I successfully updated macOS from 11.0.1 to 11.1.
+Note: After doing this, I successfully updated macOS from 11.0.1 to 11.1.
 
 ## Contact
-If you run into any step issues, open an [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) first! For other questions: Website: https://sutsurup.tr // Mail: [veysel@sutsurup.tr](mailto:veysel@sutsurup.tr)
+If you run into any issues during the steps, open an [issue](https://github.com/sutsurup/CASPER-M500-Hackintosh/issues) first. For other questions: Website: https://sutsurup.tr // Mail: [veysel@sutsurup.tr](mailto:veysel@sutsurup.tr)
 
 ## Screenshots
 ![](Screenshots/BigSur.png)
